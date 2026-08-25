@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# local backups
+*.bak
+*.bak-*
+
+# OS noise
+.DS_Store
+
+# pi worktrees (github-issue-driven convention)
+.pi/

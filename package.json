@@ -1,0 +1,34 @@
+{
+  "name": "@zhuxixi/pi-time-inject",
+  "version": "0.1.0",
+  "description": "Time injection for pi: stamps every user message with the real current time, so third-party models without a built-in clock (GLM/DeepSeek) never misread dates",
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "pi-package",
+    "time",
+    "timestamp",
+    "date",
+    "inject"
+  ],
+  "license": "MIT",
+  "author": "zhuxixi <zhuzhenxi_555@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuxixi/pi-time-inject.git"
+  },
+  "type": "module",
+  "files": [
+    "index.ts",
+    "lib/",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
